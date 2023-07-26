@@ -11,6 +11,7 @@
     "@typechain/ethers-v5": "10.2.0",
     "@typechain/hardhat": "6.1.5",
     "chai": "4.3.7",
+    "dotenv": "^16.3.1",
     "ethers": "5.4",
     "hardhat": "2.13.0",
     "hardhat-gas-reporter": "1.0.9",
@@ -18,10 +19,10 @@
     "typechain": "8.1.1"
   },
   "scripts": {
-    "run:script":"npx hardhat run scripts/run.js",
+    "run:script": "npx hardhat run scripts/run.js",
     "test": "npx hardhat test",
     "deploy": "npx hardhat run scripts/deploy.js --network sepolia",
     "deploy:localhost": "npx hardhat run scripts/deploy.js --network localhost",
-    "start":"npx hardhat node"
+    "start": "npx hardhat node"
   }
 }
