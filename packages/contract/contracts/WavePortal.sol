@@ -18,6 +18,11 @@ contract WavePortal {
 
     Wave[] waves;
 
+        
+    function getSeed() private view returns (uint256) {
+        return seed;
+    }
+
     /*
      * "address => uint mapping"は、アドレスと数値を関連付ける
      */
